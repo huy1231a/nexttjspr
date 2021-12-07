@@ -14,6 +14,9 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	 
+	 
+ 
 }
 
 header p{
@@ -73,7 +76,8 @@ a{
 
 .info {
 	width: 35%;
-    
+    margin-left: 200px;
+	margin-top: 90px;
 }
 
 .info h1 {
@@ -86,6 +90,9 @@ a{
 	color: #037943;
 	font-size: 2em;
 	font-weight: 700;
+}
+.contenido .info p{
+	margin-top: 40px;
 }
 
 .info button {
@@ -105,9 +112,7 @@ a{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-p{
-  margin-top: 20px;
-}
+ 
 .info button:hover {
       box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 
@@ -119,10 +124,11 @@ p{
 	max-height: 75vh;
 	object-fit: cover;
 	overflow: hidden;
+	margin-top: 90px;
 }
 
 .img-container img {
-	width: 85%;
+	width: 50%;
 }
 
 .social-buttons {
@@ -131,4 +137,12 @@ p{
 }
 .contenido .btn-1{
   color: #ffff;
+}
+
+@media screen and (max-width: 800px) {
+	.contenido{
+		flex-direction: column;
+		width: 100%;
+		 
+	}
 }
